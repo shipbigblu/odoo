@@ -12,5 +12,5 @@
     ],
     "installable": True,
     "application": True,
-    "icon": "odoo-sb/static/description/icon.jpg"
+        "images": ["static/description/icon.png"]
 }
