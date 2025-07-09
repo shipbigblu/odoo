@@ -1,9 +1,9 @@
 {
-    "name": "My Minimal App",
+    "name": "ShipBlu",
     "version": "18.0.1.0.0",
-    "summary": "A minimal example app for Odoo 18",
+    "summary": "COnnect your ShipBlu account to your Odoo apps and make shipping easier than ever!",
     "category": "Tools",
-    "author": "Your Name",
+    "author": "ShipBlu",
     "license": "LGPL-3",
     "depends": ["base"],
     "data": [
