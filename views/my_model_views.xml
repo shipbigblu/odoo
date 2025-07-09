@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_form_my_minimal_model" model="ir.ui.view">
+        <field name="name">my.minimal.model.form</field>
+        <field name="model">my.minimal.model</field>
+        <field name="arch" type="xml">
+            <form string="My Minimal Model">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_tree_my_minimal_model" model="ir.ui.view">
+        <field name="name">my.minimal.model.tree</field>
+        <field name="model">my.minimal.model</field>
+        <field name="arch" type="xml">
+            <tree string="My Minimal Model">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <menuitem id="menu_my_minimal_root" name="My Minimal App"/>
+    <menuitem id="menu_my_minimal_model" name="My Models" parent="menu_my_minimal_root"/>
+
+    <act_window id="action_my_minimal_model"
+                name="My Minimal Models"
+                res_model="my.minimal.model"
+                view_mode="tree,form"
+                target="current"/>
+
+    <menuitem id="menu_my_minimal_model_action"
+              parent="menu_my_minimal_model"
+              action="action_my_minimal_model"/>
+</odoo>
