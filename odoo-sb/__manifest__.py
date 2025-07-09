@@ -1,7 +1,7 @@
 {
     "name": "ShipBlu",
     "version": "18.0.1.0.0",
-    "summary": "COnnect your ShipBlu account to your Odoo apps and make shipping easier than ever!",
+    "summary": "Connect your ShipBlu account to your Odoo apps and make shipping easier than ever! Gibbons!",
     "category": "Tools",
     "author": "ShipBlu",
     "license": "LGPL-3",
