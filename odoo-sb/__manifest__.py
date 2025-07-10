@@ -5,10 +5,11 @@
     "category": "Warehouse",
     "author": "ShipBlu",
     "license": "LGPL-3",
-    "depends": ["base"],
+    "depends": ["base", "sale_management"],
     "data": [
         "security/ir.model.access.csv",
-        "views/my_model_views.xml",
+        "views/sale_order_views.xml",
+        "views/res_partner_views.xml"
     ],
     "installable": True,
     "application": True,
